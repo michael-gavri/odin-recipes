@@ -1,0 +1,42 @@
+/* פונטים */
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+/* צבעים */
+:root {
+  --primary: #6bd728;
+  --secondary: #6e4329;
+}
+
+/* רקע */
+body {
+  background-image: url('./img/food.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* כותרת */
+#main-title {
+  font-family: 'Ultra', serif;
+  font-size: 5em;
+  color: var(--primary);  
+}
+
+
+/* ניווט */  
+.nav {
+  background: var(--secondary); 
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.nav .recipe-link {
+  font-family: 'Ultra', serif;
+  color: var(--primary);
+  margin: 0 10px;
+}
+
+.nav .recipe-link:hover {
+  text-decoration: underline; 
+}

@@ -1,0 +1,47 @@
+/* פונטים */
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+body {
+  font-family: 'Sigmar One', 'cursive';
+  background-image: url('../img/baking.jpg');/*צריך להוסיף תמונה*/
+  background-size: cover;
+  color: #f4d35e;
+  text-shadow: 2px 2px 4px #4d2113;
+}
+
+/* כותרת */
+#main-title {
+  font-size: 5rem;
+  text-align: center;
+} 
+
+/* תמונה */
+.recipe-img {
+  max-width: 400px;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+  border: 10px ridge #4d2113;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px #4d2113;
+}
+
+/* רשימות */  
+.list {
+  background-color: rgba(77, 33, 19, 0.8); 
+  border: 4px dotted #f4d35e;
+  border-radius: 20px;
+  padding: 20px;
+  list-style-position: inside; 
+}
+
+/* אפקטים */
+#main-title {
+  animation: bounce 1s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}

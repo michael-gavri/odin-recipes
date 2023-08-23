@@ -21,7 +21,7 @@ body {
   color: var(--primary);  
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   #main-title {
     font-size: 3.5rem; 
   }

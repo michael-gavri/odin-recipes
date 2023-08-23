@@ -12,13 +12,24 @@ body {
 /* כותרת */
 #main-title {
   font-size: 5rem;
-  max-width: 100%;
   text-align: center;
 } 
 
+@media (max-width: 620px) {
+  #main-title {
+    font-size: 4rem; 
+  }
+}
+
+@media (max-width: 400px) {
+  #main-title {
+    font-size: 3rem;
+  } 
+}
+
 /* תמונה */
 .recipe-img {
-  max-width: 100%; 
+  max-width: 90%; 
   max-height: 400px;
   height: auto;
   display: block;

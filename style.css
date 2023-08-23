@@ -17,11 +17,15 @@ body {
 /* כותרת */
 #main-title {
   font-family: 'Ultra', serif;
-  font-size: 5em;
-  max-width: 100%;
+  font-size: 4em;
   color: var(--primary);  
 }
 
+@media (max-width: 600px) {
+  #main-title {
+    font-size: 3.5rem; 
+  }
+}
 
 /* ניווט */  
 .nav {

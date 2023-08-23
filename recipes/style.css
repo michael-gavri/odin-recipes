@@ -12,6 +12,7 @@ body {
 /* כותרת */
 #main-title {
   font-size: 5rem;
+  max-width: 100%;
   text-align: center;
 } 
 

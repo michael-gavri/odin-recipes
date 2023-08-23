@@ -49,6 +49,6 @@ Website created by michael gavrielov as a project for The Odin Project curriculu
 
 ## Contact
 
-If you have any questions or comments, please contact me at m2gavri@gmail.com(m2gavri@gmail.com).
+If you have any questions or comments, please contact me at m2gavri@gmail.com.
 
 Let me know if you would like me to explain or expand on any part of the README!
